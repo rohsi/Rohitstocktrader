@@ -10,14 +10,8 @@ export default new Vuex.Store({
       {id: 2, name: "Jasmine", price: 67},
       {id: 3, name: "Wipro", price: 94},
       {id: 4, name: "Google", price: 106},
-    ],
-    portfolio: {
-      funds: 10000,
-      myStocks: [
-        {id: 2, quantity: 3},
-        {id: 3, quantity: 12}
-      ]
-    }
+    ]
+
   },
   mutations: {
 
